@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content:""; 
+	display:block;
+	clear:both;
+	visibility: hidden;
+	height:0px;
+}
+
+html {
+	margin:0px;
+	padding:0px;
+	min-height: 100%;
+	position:relative;
+}
+
+body {
+	margin:0px 0px 75px 0px;
+	color: #777777;
+	background: url("../images/ricepaper2.png") repeat fixed center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+
+}
+
+h1, 
+h2, 
+h3, 
+h4 {
+	color:#4aaaa5;
+	font-family: 'Bitter', serif;
+	font-weight: bold;
+	margin: 20px 0px;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+h2 {
+	font-size:1.2em;
+}
+
+p {
+	margin:10px 0px;
+}
+
+.container-fluid {
+	padding: 0px 100px;
+}
+
+img {
+	width:100%;
+}
+
+.icon {
+	max-width: 100px;
+}
+
+.center {
+	text-align: center;
+}
+
+/*** NAVIGATION ***/
+
+.navbar {
+	height:70px;
+	background-color: #fff;
+	border-bottom: 2px solid #dddddd;
+}
+
+.navbar a {
+	height: 67px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color:#4aaaa5;
+}
+
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover {
+	color:#777777;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: #ffffff;
+	color:#4aaaa5;
+	font-weight: 700;
+}
+
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover {
+	background-color: #ffffff;
+	color:#777777;
+	font-weight: 700;
+}
+
+
+.navbar-default .navbar-brand {
+	height:68px;
+	background-color: #4aaaa5;
+	color:#fff;
+	padding:20px 10px;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand:focus, 
+.navbar-default .navbar-brand:hover {
+	color:#ffffff;
+	background-color: #4aaaa5;
+}
+
+.navbar>.container-fluid .navbar-brand {
+	margin-left: 15px;
+	margin-top:-1px;
+}
+
+
+/*** MAIN CONTENT ***/
+
+.content-container {
+	background-color: #ffffff;
+	padding:15px;
+	border:1px solid #dddddd;
+	margin:0px 15px;
+}
+
+hr {
+	color: #dddddd;
+	margin-bottom: 10px 0px;
+}
+
+
+/*** FOOTER ***/
+
+footer {
+	background-color: #777777;
+	border-top: 5px solid #4aaaa5;
+	margin-top: 30px;
+	color: #dddddd;
+	width:100%;
+	height:75px;
+	line-height: 75px;
+	font-size: 12px;
+	text-align: center;
+	position:absolute;
+	left:0px;
+	bottom:0px;
+}
+
+/*** ABOUT ME PAGE***/
+
+.text {
+	margin:-10px;
+}
+
+
+/***CONTACT PAGE ***/
+
+.btn-form {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	border:none;
+}
+
+.btn-form:hover {
+	background-color: #777;
+	cursor: pointer;
+	color:#ffffff;
+}
+
+/*** PORTFOLIO PAGE ***/
+.project-title {
+	height: 64px;
+	background-color: #4aaaa5;
+	text-align: center;
+	vertical-align: top;
+	position: absolute;
+	top: 65%;
+	margin:0px 15px;
+	left:0px;
+	right:0px;
+}
+
+.project-title h3 {
+	color: white;
+	font-size: 1.4em;
+	
+}
