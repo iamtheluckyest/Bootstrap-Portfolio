@@ -48,10 +48,6 @@ p {
 	margin:10px 0px;
 }
 
-.container-fluid {
-	padding: 0px 100px;
-}
-
 img {
 	width:100%;
 }
@@ -73,7 +69,7 @@ img {
 }
 
 .navbar a {
-	height: 67px;
+	height: 65px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -104,7 +100,7 @@ img {
 	background-color: #4aaaa5;
 	color:#fff;
 	padding:20px 10px;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-family: 'Bitter', serif;
 	font-weight: bold;
 	font-size: 1.5em;
 }
@@ -115,8 +111,8 @@ img {
 	background-color: #4aaaa5;
 }
 
-.navbar>.container-fluid .navbar-brand {
-	margin-left: 15px;
+.navbar>.container .navbar-brand {
+	margin-left: 0px;
 	margin-top:-1px;
 }
 
@@ -127,7 +123,6 @@ img {
 	background-color: #ffffff;
 	padding:15px;
 	border:1px solid #dddddd;
-	margin:0px 15px;
 }
 
 hr {
